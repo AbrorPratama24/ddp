@@ -1,0 +1,5 @@
+my_list = ["HONDA CBR600RR", "Motor", "599 cc", "Hitam", "2"]
+my_list += ["Rp 507,98 Juta", "Sport Bike"]
+my_list.append("Honda")
+
+print(my_list)
