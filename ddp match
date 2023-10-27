@@ -1,0 +1,24 @@
+luas_bangun_datar = int(input("masukan jenis bangun :"))
+
+match luas_bangun_datar:
+    case 1:
+        print("Menghitung Luas Persegi")
+        s1 = float(input("masukkan sisi :"))
+        s2 = float(input("masukkan sisi :"))
+        luas_p = s1 * s2
+        print("hasil :",luas_p)
+    case 2:
+        print("menghitung luas lingkaran")
+        phi = 3.14
+        r = float(input("jari - jari : "))
+        luas_l = phi * r
+        print("hasil : ",luas_l)
+    case 3:
+        print("menghitung luas segitiga :")
+        s = 0.5
+        a = float(input("alas : "))
+        t = float(input("tinggi : "))
+        luas_s = a * t * s
+        print("hasil : ",luas_s)
+    case _:
+        print("tidak sesuai")
